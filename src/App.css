@@ -1,0 +1,94 @@
+body {
+  background-image: url('https://images.pexels.com/photos/1024248/pexels-photo-1024248.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+.search input {
+  background-image: url('https://image.flaticon.com/icons/png/512/1311/1311343.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  background-position-y: 8px;
+  background-position-x: 5px;
+
+  width: 100%;
+}
+
+.active-link {
+  border: 2px solid white;
+}
+
+.profile li {
+  margin-bottom: 10px;
+}
+
+.profile .card {
+  width: 60%;
+  margin: auto;
+  margin-top: 7vh !important;
+  border-radius: 10px;
+}
+.profile span {
+  color: aliceblue;
+}
+.global-container {
+  min-height: 100vh;
+  padding-bottom: 50px;
+  background-color: rgba(71, 71, 71, 0.856);
+}
+
+.alert {
+  max-width: 60%;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  background-color: rgba(78, 67, 67, 0.932);
+
+  display: inline-block;
+}
+
+.search .content {
+  background-color: rgba(0, 0, 0, 0.152);
+}
+
+.form-input {
+  padding: 8px;
+  padding-left: 15px;
+  border: 2px solid rgb(187, 212, 248);
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.choices p {
+  font-size: 14px;
+}
+
+.choices h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+}
+.Form .card {
+  width: 50%;
+  display: block;
+  border-radius: 10px;
+}
+
+.search {
+  width: 70%;
+  margin: auto;
+  margin-top: 30vh;
+  background-image: url('https://image.freepik.com/free-photo/white-wooden-wall_1154-599.jpg');
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Form .card {
+    width: 90%;
+  }
+}
